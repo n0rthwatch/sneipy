@@ -1,10 +1,10 @@
 <template>
-<header class="header">
-  <StdButton @click="tg.close()">Закрыть</StdButton>
-  <span class="username">
-    {{ username }}
-  </span>
-</header>
+  <header class="header">
+    <StdButton @click="tg.close()" :text="Закрыть"></StdButton>
+    <span class="username">
+      {{ username }}
+    </span>
+  </header>
 </template>
 
 

@@ -11,8 +11,8 @@ const props = defineProps({
 </script>
 <style>
 .std-btn {
-  background: var(--tg-theme-section-bg-color);
-  color: var(--tg-theme-text-color);
+  background: var(--tg-theme-button-color);
+  color: var(--tg-theme-button-text-color);
   padding: 10px 15px;
   font-size: 14px;
 }
