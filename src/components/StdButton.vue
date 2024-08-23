@@ -1,5 +1,5 @@
 <template>
-  <button :class="props.class" class="std-btn">{{  }}</button>
+  <button :class="props.class" class="std-btn" :id="props.id">{{ props.text }}</button>
 </template>
 <script setup>
 const props = defineProps({
@@ -12,7 +12,7 @@ const props = defineProps({
 <style>
 .std-btn {
   background: var(--tg-theme-button-color);
-  color: var(--tg-theme-button-text-color);
+  color: var(--tg-theme-text-color);
   padding: 10px 15px;
   font-size: 14px;
 }
