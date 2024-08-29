@@ -13,7 +13,9 @@ const props = defineProps({
 .std-btn {
   background: var(--tg-theme-button-color);
   color: var(--tg-theme-text-color);
-  padding: 10px 15px;
+  padding: 10px 20px;
   font-size: 14px;
+  border: none;
+  text-wrap: nowrap;
 }
 </style>

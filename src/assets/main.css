@@ -1,1 +1,8 @@
 @import './base.css';
+
+.dev {
+  color: red;
+  font-family: 'Courier New', Courier, monospace;
+  font-size: 12px;
+  width: 100%;
+}
